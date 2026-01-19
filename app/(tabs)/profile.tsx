@@ -1,10 +1,10 @@
 import { Text, View } from "react-native";
-import { SafeAreaProvider } from "react-native-safe-area-context";
+import {  SafeAreaView } from "react-native-safe-area-context";
 
 export default function ProfileScreen(){
     return (
-        <SafeAreaProvider>
+        <SafeAreaView>
             <Text>Profile screen</Text>
-        </SafeAreaProvider>
+        </SafeAreaView>
     )
 }

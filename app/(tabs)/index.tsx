@@ -1,10 +1,13 @@
 import { Text, View } from "react-native";
-import { SafeAreaProvider } from "react-native-safe-area-context";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function HomeScreen() {
   return (
-<SafeAreaProvider>
-  <Text>Home screen</Text>
-</SafeAreaProvider>
+    <SafeAreaView >
+      <View className="p-10 ">
+      <Text className="text-3xl text-white font-semibold">SeeMe</Text>
+      <Text>Home screen</Text>
+      </View>
+    </SafeAreaView>
   )
 }
